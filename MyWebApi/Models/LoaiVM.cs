@@ -2,11 +2,9 @@
 
 namespace MyWebApi.Models
 {
-    public class LoaiModel
-    {   
-
-        [Required]
-        [MaxLength(50)]
+    public class LoaiVM
+    {
+        public int MaLoai { get; set; }
         public string TenLoai { get; set; }
     }
 }
